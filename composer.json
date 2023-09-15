@@ -1,0 +1,31 @@
+{
+  "name": "illia-nova/m2-module-customer-address-limits",
+  "version": "1.0.0",
+  "description": "Customer Address Limits for Magento 2 projects",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "magento/module-customer": "103.0.*",
+    "magento/module-customer-graph-ql": "100.4.*",
+    "php": ">=7.4||>=8.1"
+  },
+  "authors": [
+    {
+      "name": "Illia Nova (Kovalenko Novychenko)",
+      "email": "illia.kovalenkov@gmail.com",
+      "homepage": "https://github.com/IlliaKov",
+      "role": "Full Stack Developer"
+    }
+  ],
+  "license": [
+    "Proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "IlliaNova\\CustomerAddressLimits\\": ""
+    }
+  }
+}

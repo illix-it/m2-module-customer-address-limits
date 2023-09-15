@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Customer\Api\AddressRepositoryInterface">
+        <plugin name="address_repository_plugin" type="IlliaNova\CustomerAddressLimits\Plugin\CustomerAddressLimitPlugin" sortOrder="10"/>
+        <plugin name="prohibit_address_deletion_plugin" type="IlliaNova\CustomerAddressLimits\Plugin\ProhibitAddressDeletionPlugin" sortOrder="20"/>
+    </type>
+</config>
