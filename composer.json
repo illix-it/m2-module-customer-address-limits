@@ -1,6 +1,6 @@
 {
   "name": "illia-nova/m2-module-customer-address-limits",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Customer Address Limits for Magento 2 projects",
   "type": "magento2-module",
   "require": {
