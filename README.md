@@ -4,6 +4,8 @@
 
 This module provides enhanced customer address management and limitation capabilities for a customer through its plugin-based approach.
 
+![customer_address_limits.png](images%2Fcustomer_address_limits.png)
+
 ### Plugins
 Harness the power of plugins for advanced functionality:
 - [CustomerAddressLimitPlugin.php](Plugin%2FCustomerAddressLimitPlugin.php) — This plugin modifies the behavior of address saving to enforce only 1 non-editable address for a customer.
