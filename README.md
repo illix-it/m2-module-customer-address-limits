@@ -32,4 +32,4 @@ then run the following commands:
 $ composer require illia-nova/m2-module-customer-address-limits
 $ php bin/magento setup:upgrade
 ```
-Author – Illia Nova
+Author – Illia Kovalenko
